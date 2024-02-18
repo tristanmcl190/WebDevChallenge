@@ -1,0 +1,114 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*body {
+  margin-bottom: 60px;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../lib/images/dancestudio.jpg');/*Specify the path to your image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /*Center the image */
+    background-attachment: fixed; /*Fixed position, so it stays in place while scrolling */
+    color: white;
+    Text color
+}
+
+.content {
+    padding: 20px;
+}
+
+
+.text-container {
+    background-color: white; /* Set white background */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 0.25rem; /* Round the edges */
+    margin-bottom: 20px; /* Add space after the div */
+}
+
+.staff-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    margin-right: 20px;
+}
+
+    .profile-image img {
+        width: 100px; /* Adjust the image size as needed */
+        border-radius: 50%; /* Make the image circular */
+    }
+
+.profile-info {
+    color: grey;
+}
+
+.grid-layout {
+    flex-direction: column;
+}
+
+/* Add more styles as needed */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+    .form-container label {
+        display: block;
+        margin-bottom: 10px;
+        color: grey; /* Set text color to grey */
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="email"],
+    .form-container input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    .form-container input[type="submit"] {
+        background-color: #258cfb;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .form-container textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        height: 100px;
+    }
+
